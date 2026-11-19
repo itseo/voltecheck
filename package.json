@@ -1,0 +1,13 @@
+{
+  "name": "voltecheck",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Compatibilidad y guías locales de VoLTE para teléfonos",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "author": "Francisco Díaz Lara - Sistewa",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs && node --test scripts/device.test.mjs"
+  }
+}
