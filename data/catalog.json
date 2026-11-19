@@ -1,0 +1,1006 @@
+{
+  "schema": 1,
+  "updated": "2026-11-19",
+  "brands": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "guide": "apple",
+      "models": [
+        {
+          "name": "iPhone 17 Pro Max"
+        },
+        {
+          "name": "iPhone 17 Pro"
+        },
+        {
+          "name": "iPhone 17"
+        },
+        {
+          "name": "iPhone 16 Pro Max"
+        },
+        {
+          "name": "iPhone 16 Pro"
+        },
+        {
+          "name": "iPhone 16 Plus"
+        },
+        {
+          "name": "iPhone 16"
+        },
+        {
+          "name": "iPhone 16e"
+        },
+        {
+          "name": "iPhone 15 Pro Max"
+        },
+        {
+          "name": "iPhone 15 Pro"
+        },
+        {
+          "name": "iPhone 15 Plus"
+        },
+        {
+          "name": "iPhone 15"
+        },
+        {
+          "name": "iPhone 14 Pro Max"
+        },
+        {
+          "name": "iPhone 14 Pro"
+        },
+        {
+          "name": "iPhone 14 Plus"
+        },
+        {
+          "name": "iPhone 14"
+        },
+        {
+          "name": "iPhone 13 Pro Max"
+        },
+        {
+          "name": "iPhone 13 Pro"
+        },
+        {
+          "name": "iPhone 13 mini"
+        },
+        {
+          "name": "iPhone 13"
+        },
+        {
+          "name": "iPhone 12 Pro Max"
+        },
+        {
+          "name": "iPhone 12 Pro"
+        },
+        {
+          "name": "iPhone 12 mini"
+        },
+        {
+          "name": "iPhone 12"
+        },
+        {
+          "name": "iPhone 11 Pro Max"
+        },
+        {
+          "name": "iPhone 11 Pro"
+        },
+        {
+          "name": "iPhone 11"
+        },
+        {
+          "name": "iPhone XS Max"
+        },
+        {
+          "name": "iPhone XS"
+        },
+        {
+          "name": "iPhone XR"
+        },
+        {
+          "name": "iPhone X"
+        },
+        {
+          "name": "iPhone SE (2022)"
+        },
+        {
+          "name": "iPhone SE (2020)"
+        },
+        {
+          "name": "iPhone 8 Plus"
+        },
+        {
+          "name": "iPhone 8"
+        },
+        {
+          "name": "iPhone 7 Plus"
+        },
+        {
+          "name": "iPhone 7"
+        },
+        {
+          "name": "iPhone 5s",
+          "status": "unsupported",
+          "reason": "El iPhone 5s no incorpora compatibilidad con llamadas VoLTE. Su conectividad LTE está destinada a los datos móviles."
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "guide": "samsung",
+      "models": [
+        {
+          "name": "Galaxy S25 Ultra"
+        },
+        {
+          "name": "Galaxy S25 Edge"
+        },
+        {
+          "name": "Galaxy S25+"
+        },
+        {
+          "name": "Galaxy S25"
+        },
+        {
+          "name": "Galaxy S25 FE"
+        },
+        {
+          "name": "Galaxy S24 Ultra",
+          "aliases": [
+            "SM-S928B"
+          ]
+        },
+        {
+          "name": "Galaxy S24+"
+        },
+        {
+          "name": "Galaxy S24",
+          "aliases": [
+            "SM-S921B"
+          ]
+        },
+        {
+          "name": "Galaxy S24 FE"
+        },
+        {
+          "name": "Galaxy S23 Ultra",
+          "aliases": [
+            "SM-S918B"
+          ]
+        },
+        {
+          "name": "Galaxy S23+"
+        },
+        {
+          "name": "Galaxy S23",
+          "aliases": [
+            "SM-S911B"
+          ]
+        },
+        {
+          "name": "Galaxy S23 FE"
+        },
+        {
+          "name": "Galaxy S22 Ultra"
+        },
+        {
+          "name": "Galaxy S22+"
+        },
+        {
+          "name": "Galaxy S22",
+          "aliases": [
+            "SM-S901B"
+          ]
+        },
+        {
+          "name": "Galaxy S21 Ultra"
+        },
+        {
+          "name": "Galaxy S21+"
+        },
+        {
+          "name": "Galaxy S21"
+        },
+        {
+          "name": "Galaxy S21 FE 5G"
+        },
+        {
+          "name": "Galaxy Z Fold6"
+        },
+        {
+          "name": "Galaxy Z Fold5"
+        },
+        {
+          "name": "Galaxy Z Fold4"
+        },
+        {
+          "name": "Galaxy Z Fold3"
+        },
+        {
+          "name": "Galaxy Z Flip6"
+        },
+        {
+          "name": "Galaxy Z Flip5"
+        },
+        {
+          "name": "Galaxy Z Flip4"
+        },
+        {
+          "name": "Galaxy Z Flip3"
+        },
+        {
+          "name": "Galaxy A56 5G"
+        },
+        {
+          "name": "Galaxy A55 5G",
+          "aliases": [
+            "SM-A556B",
+            "SM-A556B/DS"
+          ]
+        },
+        {
+          "name": "Galaxy A54 5G",
+          "aliases": [
+            "SM-A546B",
+            "SM-A546B/DS"
+          ]
+        },
+        {
+          "name": "Galaxy A53 5G",
+          "aliases": [
+            "SM-A536B"
+          ]
+        },
+        {
+          "name": "Galaxy A52s 5G"
+        },
+        {
+          "name": "Galaxy A52 5G"
+        },
+        {
+          "name": "Galaxy A52"
+        },
+        {
+          "name": "Galaxy A36 5G"
+        },
+        {
+          "name": "Galaxy A35 5G",
+          "aliases": [
+            "SM-A356B"
+          ]
+        },
+        {
+          "name": "Galaxy A34 5G"
+        },
+        {
+          "name": "Galaxy A33 5G"
+        },
+        {
+          "name": "Galaxy A32 5G"
+        },
+        {
+          "name": "Galaxy A26 5G"
+        },
+        {
+          "name": "Galaxy A25 5G"
+        },
+        {
+          "name": "Galaxy A23 5G"
+        },
+        {
+          "name": "Galaxy A16 5G"
+        },
+        {
+          "name": "Galaxy A16"
+        },
+        {
+          "name": "Galaxy A15 5G"
+        },
+        {
+          "name": "Galaxy A14 5G",
+          "aliases": [
+            "SM-A146P"
+          ]
+        },
+        {
+          "name": "Galaxy A14"
+        },
+        {
+          "name": "Galaxy A13 5G"
+        },
+        {
+          "name": "Galaxy A13"
+        },
+        {
+          "name": "Galaxy A12"
+        },
+        {
+          "name": "Galaxy M55 5G"
+        },
+        {
+          "name": "Galaxy M35 5G"
+        },
+        {
+          "name": "Galaxy M34 5G"
+        },
+        {
+          "name": "Galaxy XCover 7"
+        },
+        {
+          "name": "Galaxy XCover 6 Pro"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "guide": "xiaomi",
+      "models": [
+        {
+          "name": "Xiaomi 15 Ultra"
+        },
+        {
+          "name": "Xiaomi 15 Pro"
+        },
+        {
+          "name": "Xiaomi 15"
+        },
+        {
+          "name": "Xiaomi 14T Pro"
+        },
+        {
+          "name": "Xiaomi 14T"
+        },
+        {
+          "name": "Xiaomi 14 Ultra"
+        },
+        {
+          "name": "Xiaomi 14 Pro"
+        },
+        {
+          "name": "Xiaomi 14"
+        },
+        {
+          "name": "Xiaomi 13T Pro"
+        },
+        {
+          "name": "Xiaomi 13T"
+        },
+        {
+          "name": "Xiaomi 13"
+        },
+        {
+          "name": "Xiaomi 11T Pro"
+        },
+        {
+          "name": "Xiaomi 11 Lite 5G NE",
+          "mmi": true
+        },
+        {
+          "name": "Mi 11i"
+        },
+        {
+          "name": "MIX Flip"
+        },
+        {
+          "name": "POCO F7 Ultra"
+        },
+        {
+          "name": "POCO F7 Pro"
+        },
+        {
+          "name": "POCO F7"
+        },
+        {
+          "name": "POCO F6 Pro"
+        },
+        {
+          "name": "POCO F6"
+        },
+        {
+          "name": "POCO X7 Pro"
+        },
+        {
+          "name": "POCO X7"
+        },
+        {
+          "name": "POCO X6 Pro 5G",
+          "aliases": [
+            "POCO X6 Pro"
+          ]
+        },
+        {
+          "name": "POCO X6 5G"
+        },
+        {
+          "name": "POCO X6"
+        },
+        {
+          "name": "POCO M6 Pro"
+        },
+        {
+          "name": "POCO M6"
+        },
+        {
+          "name": "POCO C75"
+        },
+        {
+          "name": "POCO C65"
+        },
+        {
+          "name": "POCO X3 Pro",
+          "mmi": true
+        },
+        {
+          "name": "Redmi Note 14 Pro+ 5G",
+          "aliases": [
+            "Redmi Note 14 Pro+"
+          ]
+        },
+        {
+          "name": "Redmi Note 14 Pro 5G"
+        },
+        {
+          "name": "Redmi Note 14 Pro"
+        },
+        {
+          "name": "Redmi Note 14 5G"
+        },
+        {
+          "name": "Redmi Note 14"
+        },
+        {
+          "name": "Redmi Note 13 Pro+ 5G",
+          "aliases": [
+            "Redmi Note 13 Pro+"
+          ]
+        },
+        {
+          "name": "Redmi Note 13 Pro 5G"
+        },
+        {
+          "name": "Redmi Note 13 Pro"
+        },
+        {
+          "name": "Redmi Note 13 5G"
+        },
+        {
+          "name": "Redmi Note 13"
+        },
+        {
+          "name": "Redmi Note 12 Pro+ 5G"
+        },
+        {
+          "name": "Redmi Note 12 Pro 5G"
+        },
+        {
+          "name": "Redmi Note 12 Pro"
+        },
+        {
+          "name": "Redmi Note 12S"
+        },
+        {
+          "name": "Redmi Note 12"
+        },
+        {
+          "name": "Redmi Note 11 Pro 5G"
+        },
+        {
+          "name": "Redmi Note 10 Pro",
+          "mmi": true
+        },
+        {
+          "name": "Redmi Note 10 5G",
+          "mmi": true
+        },
+        {
+          "name": "Redmi Note 8T",
+          "mmi": true
+        },
+        {
+          "name": "Redmi 14C"
+        },
+        {
+          "name": "Redmi 13C 5G"
+        },
+        {
+          "name": "Redmi 13C"
+        },
+        {
+          "name": "Redmi 13"
+        },
+        {
+          "name": "Redmi 12 5G"
+        },
+        {
+          "name": "Redmi 12"
+        },
+        {
+          "name": "Redmi A5"
+        },
+        {
+          "name": "Redmi A3"
+        },
+        {
+          "name": "Redmi A2"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "guide": "google",
+      "models": [
+        {
+          "name": "Pixel 10 Pro Fold"
+        },
+        {
+          "name": "Pixel 10 Pro XL"
+        },
+        {
+          "name": "Pixel 10 Pro"
+        },
+        {
+          "name": "Pixel 10"
+        },
+        {
+          "name": "Pixel 10a"
+        },
+        {
+          "name": "Pixel 9 Pro Fold"
+        },
+        {
+          "name": "Pixel 9 Pro XL"
+        },
+        {
+          "name": "Pixel 9 Pro"
+        },
+        {
+          "name": "Pixel 9"
+        },
+        {
+          "name": "Pixel 9a"
+        },
+        {
+          "name": "Pixel 8 Pro"
+        },
+        {
+          "name": "Pixel 8"
+        },
+        {
+          "name": "Pixel 8a"
+        },
+        {
+          "name": "Pixel 7 Pro"
+        },
+        {
+          "name": "Pixel 7"
+        },
+        {
+          "name": "Pixel 7a"
+        },
+        {
+          "name": "Pixel 6 Pro"
+        },
+        {
+          "name": "Pixel 6"
+        },
+        {
+          "name": "Pixel 6a"
+        },
+        {
+          "name": "Pixel Fold"
+        }
+      ]
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "guide": "oppo",
+      "models": [
+        {
+          "name": "Find N3"
+        },
+        {
+          "name": "Find N2 Flip"
+        },
+        {
+          "name": "Find X8 Pro"
+        },
+        {
+          "name": "Find X5 Pro"
+        },
+        {
+          "name": "Find X5"
+        },
+        {
+          "name": "Find X3 Pro"
+        },
+        {
+          "name": "Reno13 Pro"
+        },
+        {
+          "name": "Reno13"
+        },
+        {
+          "name": "Reno13 F"
+        },
+        {
+          "name": "Reno13 FS"
+        },
+        {
+          "name": "Reno12 Pro"
+        },
+        {
+          "name": "Reno12"
+        },
+        {
+          "name": "Reno12 F"
+        },
+        {
+          "name": "Reno12 FS"
+        },
+        {
+          "name": "Reno11 F"
+        },
+        {
+          "name": "Reno10 Pro"
+        },
+        {
+          "name": "Reno10"
+        },
+        {
+          "name": "Reno8 Pro"
+        },
+        {
+          "name": "Reno8"
+        },
+        {
+          "name": "Reno8 T"
+        },
+        {
+          "name": "Reno7"
+        },
+        {
+          "name": "A98"
+        },
+        {
+          "name": "A80"
+        },
+        {
+          "name": "A79"
+        },
+        {
+          "name": "A78"
+        },
+        {
+          "name": "A77"
+        },
+        {
+          "name": "A60"
+        },
+        {
+          "name": "A58"
+        },
+        {
+          "name": "A57"
+        },
+        {
+          "name": "A57s"
+        },
+        {
+          "name": "A38"
+        },
+        {
+          "name": "A18"
+        }
+      ]
+    },
+    {
+      "id": "motorola",
+      "name": "Motorola",
+      "guide": "motorola",
+      "models": [
+        {
+          "name": "edge 50 ultra"
+        },
+        {
+          "name": "edge 50 pro"
+        },
+        {
+          "name": "edge 50 neo"
+        },
+        {
+          "name": "edge 50 fusion"
+        },
+        {
+          "name": "edge 50"
+        },
+        {
+          "name": "edge 40 pro"
+        },
+        {
+          "name": "edge 40 neo"
+        },
+        {
+          "name": "edge 40"
+        },
+        {
+          "name": "moto g85 5G"
+        },
+        {
+          "name": "moto g84 5G"
+        },
+        {
+          "name": "moto g75 5G"
+        },
+        {
+          "name": "moto g55 5G"
+        },
+        {
+          "name": "moto g54 5G"
+        },
+        {
+          "name": "moto g35 5G"
+        },
+        {
+          "name": "moto g34 5G"
+        },
+        {
+          "name": "moto g24"
+        },
+        {
+          "name": "moto g14"
+        },
+        {
+          "name": "moto g13"
+        },
+        {
+          "name": "moto g04s"
+        },
+        {
+          "name": "moto g04"
+        },
+        {
+          "name": "moto e14"
+        },
+        {
+          "name": "moto e13"
+        },
+        {
+          "name": "razr 50 ultra"
+        },
+        {
+          "name": "razr 50"
+        },
+        {
+          "name": "razr 40 ultra"
+        },
+        {
+          "name": "razr 40"
+        }
+      ]
+    },
+    {
+      "id": "huawei",
+      "name": "Huawei",
+      "guide": "huawei",
+      "models": [
+        {
+          "name": "nova 12s"
+        },
+        {
+          "name": "nova 12 SE"
+        },
+        {
+          "name": "nova 12i"
+        },
+        {
+          "name": "nova 11 Pro"
+        },
+        {
+          "name": "nova 11i"
+        },
+        {
+          "name": "nova 9 SE"
+        },
+        {
+          "name": "nova 9"
+        },
+        {
+          "name": "Mate X3"
+        },
+        {
+          "name": "Mate 50 Pro"
+        },
+        {
+          "name": "P60 Pro"
+        },
+        {
+          "name": "P50 Pro"
+        },
+        {
+          "name": "P50 Pocket"
+        }
+      ]
+    }
+  ],
+  "guides": {
+    "apple": {
+      "intro": "En iPhone la opción puede estar gestionada automáticamente por el operador; no siempre existe un interruptor específico de VoLTE.",
+      "variants": [
+        {
+          "id": "ios-new",
+          "label": "iOS reciente",
+          "steps": [
+            "Abre Ajustes en el iPhone.",
+            "Entra en Datos móviles.",
+            "Si utilizas dos líneas, elige la línea de voz que quieres configurar.",
+            "Entra en Opciones de datos móviles si se muestra y después pulsa Voz y datos.",
+            "Selecciona 4G/LTE o 5G según las opciones disponibles. Si aparece VoLTE, actívalo."
+          ],
+          "note": "En algunos iPhone la opción VoLTE no se muestra por separado. Si solo ves opciones de Voz y datos, no significa que el teléfono carezca de VoLTE."
+        },
+        {
+          "id": "ios-old",
+          "label": "iOS anterior",
+          "steps": [
+            "Abre Ajustes.",
+            "Pulsa Datos móviles y entra en Opciones.",
+            "Accede a Voz y datos.",
+            "Selecciona LTE/4G y, si aparece la opción de voz LTE o VoLTE, elige Voz y datos o activa VoLTE."
+          ],
+          "note": "Las opciones concretas dependen del operador y de la versión de iOS."
+        }
+      ],
+      "note": "Si no aparece VoLTE, revisa si tu operador lo habilita para tu línea. La ausencia del interruptor en iOS no demuestra que esté desactivado."
+    },
+    "samsung": {
+      "intro": "En Samsung Galaxy con One UI, la ruta puede cambiar con la versión del software.",
+      "variants": [
+        {
+          "id": "toggle",
+          "label": "Con interruptor",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Conexiones.",
+            "Pulsa Redes móviles.",
+            "Si aparece Llamadas VoLTE (o Llamadas VoLTE SIM 1 / SIM 2), activa el interruptor de la SIM correspondiente."
+          ],
+          "note": "Si utilizas dos SIM, comprueba la línea adecuada."
+        },
+        {
+          "id": "automatic",
+          "label": "Sin interruptor",
+          "steps": [
+            "Abre Ajustes y entra en Conexiones.",
+            "Selecciona Redes móviles y comprueba que el modo de red permita 4G/LTE.",
+            "Si no ves Llamadas VoLTE, es posible que el sistema la gestione automáticamente.",
+            "Mantén actualizado el sistema y consulta con tu operador si la línea tiene habilitadas las llamadas 4G."
+          ],
+          "note": "En determinadas versiones recientes de One UI el interruptor ya no está disponible: no es necesario forzarlo ni instalar aplicaciones."
+        }
+      ],
+      "note": "El menú puede variar según la región, el modelo y el operador."
+    },
+    "xiaomi": {
+      "intro": "La configuración varía entre MIUI y HyperOS. Elige la interfaz que veas en Ajustes.",
+      "variants": [
+        {
+          "id": "hyperos",
+          "label": "HyperOS / interfaz reciente",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Redes móviles.",
+            "Selecciona la tarjeta SIM con la que llamas.",
+            "Busca Llamadas 4G o Usar VoLTE y actívalo si aparece."
+          ],
+          "note": "Si no encuentras la opción, puede estar gestionada automáticamente o no estar habilitada por el operador."
+        },
+        {
+          "id": "miui",
+          "label": "MIUI",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Tarjetas SIM y redes móviles.",
+            "Selecciona la tarjeta SIM que utilizas para las llamadas.",
+            "Busca Usar VoLTE o Llamadas VoLTE y activa el interruptor."
+          ],
+          "note": "En versiones de MIUI más antiguas puede aparecer un nombre o menú ligeramente distinto."
+        }
+      ],
+      "note": "No marques códigos de servicio ni cambies ajustes avanzados si no estás seguro de la variante exacta de tu equipo."
+    },
+    "google": {
+      "intro": "En Google Pixel, VoLTE puede estar habilitado de forma predeterminada según el operador.",
+      "variants": [
+        {
+          "id": "pixel",
+          "label": "Android / Pixel",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Redes e Internet.",
+            "Pulsa SIMs y selecciona tu línea si tienes varias.",
+            "Busca VoLTE o Llamadas 4G y actívalo si aparece."
+          ],
+          "note": "Si no hay un interruptor, el operador podría administrarlo automáticamente."
+        }
+      ],
+      "note": "La disponibilidad de VoLTE depende también de la configuración de la red de tu compañía."
+    },
+    "oppo": {
+      "intro": "En teléfonos OPPO, selecciona la versión de ColorOS que tengas instalada.",
+      "variants": [
+        {
+          "id": "coloros12",
+          "label": "ColorOS 12 o superior",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Red móvil.",
+            "Elige la SIM que usas para llamar.",
+            "Activa Llamadas VoLTE, si aparece."
+          ],
+          "note": "La opción podría estar activada por defecto o no mostrarse, según operador."
+        },
+        {
+          "id": "coloros11",
+          "label": "ColorOS 11 o anterior",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Tarjeta SIM y datos móviles (o SIM dual y red móvil, según versión).",
+            "Selecciona la SIM.",
+            "Activa Llamadas VoLTE, si está disponible."
+          ],
+          "note": "En ColorOS antiguos los nombres de los menús pueden variar."
+        }
+      ],
+      "note": "No ver el interruptor no demuestra incompatibilidad: el operador y la versión de software pueden ocultarlo."
+    },
+    "motorola": {
+      "intro": "En Motorola, las opciones suelen encontrarse dentro de la configuración de la SIM y de la red móvil.",
+      "variants": [
+        {
+          "id": "moto-current",
+          "label": "Android reciente",
+          "steps": [
+            "Abre Ajustes.",
+            "Selecciona Redes e Internet.",
+            "Entra en SIMs o Red móvil y elige la línea correspondiente.",
+            "Busca Llamadas 4G o VoLTE y actívalo si aparece."
+          ],
+          "note": "En algunos equipos Motorola no aparece un interruptor independiente."
+        },
+        {
+          "id": "moto-older",
+          "label": "Android anterior",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Redes e Internet.",
+            "Selecciona Red móvil.",
+            "Busca Llamadas 4G (4G Calling) y activa esa opción, si está disponible."
+          ],
+          "note": "Los menús exactos varían según la versión y región."
+        }
+      ],
+      "note": "Mantén actualizado el software del teléfono y consulta a tu operador si no aparece la opción."
+    },
+    "huawei": {
+      "intro": "En Huawei con EMUI, las llamadas 4G pueden configurarse dentro de los ajustes de datos móviles.",
+      "variants": [
+        {
+          "id": "emui",
+          "label": "EMUI",
+          "steps": [
+            "Abre Ajustes.",
+            "Entra en Redes móviles.",
+            "Pulsa Datos móviles.",
+            "Busca Llamadas VoLTE y activa la opción si aparece para tu SIM."
+          ],
+          "note": "En versiones o configuraciones de operador donde no se ve el interruptor, VoLTE puede administrarse automáticamente."
+        }
+      ],
+      "note": "Si tienes varias SIM, comprueba la línea de voz correcta."
+    }
+  }
+}
