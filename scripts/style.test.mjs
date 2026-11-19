@@ -19,7 +19,7 @@ test("Sin desplazamiento horizontal por fondos decorativos", () => {
 });
 
 test("Pie de página contrastado", () => {
-  const footerCss=css.match(/\.site-footer\s*\{([^}]+)\}/s)?.[1] || "";
+  const footerCss=[...css.matchAll(/\.site-footer\s*\{([^}]+)\}/gs)].at(-1)?.[1] || "";
   assert.match(footerCss, /background:\s*#fff/);
   assert.match(footerCss, /color:\s*#344d60/);
   assert.doesNotMatch(css, /\.desktop-message\s*~\s*\.site-footer/);
