@@ -27,8 +27,14 @@ test("Pie de página contrastado", () => {
   assert.match(html,/href="https:\/\/sistewa\.com"/);
 });
 
-test("Símbolo 4G correcto", () => {
+test("Símbolo 4G SVG facilitado por Sistewa", () => {
   assert.match(html, /class="hero-symbol"/);
-  assert.match(html, /<text x="11" y="51"[^>]+>4G<\/text>/);
-  assert.match(html, /<g fill="#6ae6c2">/);
+  assert.match(html, /viewBox="0 0 48 48"/);
+  assert.match(html, /M35\.087 9\.408/);
+  assert.match(html, /<g fill="currentColor">/);
+  assert.match(css, /\.hero-symbol\s*\{[^}]*color:\s*var\(--mint-bright\)/s);
+});
+
+test("Acción principal abre la guía de activación", () => {
+  assert.match(html, /id="detected-select"[^>]*>Guía de activación/);
 });
