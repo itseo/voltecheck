@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#081629">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Descubre si tu móvil es compatible con VoLTE y aprende a encontrar las llamadas 4G paso a paso. Gratis y sin registros.">
+  <meta name="author" content="Francisco Díaz Lara - Sistewa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="VoLTECheck | ¿Tu móvil tiene VoLTE?">
+  <meta property="og:description" content="Comprueba si tu modelo admite llamadas 4G y descubre cómo configurarlas. Creado por Sistewa.">
+  <meta property="og:image" content="https://itseo.github.io/voltecheck/assets/og.svg">
+  <meta property="og:url" content="https://itseo.github.io/voltecheck/">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://itseo.github.io/voltecheck/">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <title>VoLTECheck — ¿Tu móvil es compatible con VoLTE?</title>
+  <script src="./assets/app.js" type="module"></script>
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+  <header class="site-header">
+    <a href="./" class="wordmark" aria-label="VoLTECheck, inicio">
+      <span class="logo-icon" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="11" y="4" width="18" height="32" rx="5" fill="none" stroke="currentColor" stroke-width="2.7"/><path d="M17 10h6M17 30h6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="m18 21 2.3 2.3 4.5-5.6" fill="none" stroke="#53e6b4" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span>VoLTE<span class="brand-accent">Check</span></span>
+    </a>
+    <span class="header-tag">Guía gratuita</span>
+  </header>
+  <main id="desktop-message" class="desktop-message" hidden>
+    <section class="desktop-card">
+      <div class="desktop-illustration" aria-hidden="true">
+        <svg viewBox="0 0 240 180"><rect x="20" y="28" width="142" height="93" rx="9" fill="#132e47" stroke="#6384a6" stroke-width="3"/><rect x="34" y="42" width="114" height="65" rx="4" fill="#0a1727"/><path d="M88 121v17m-26 4h52" stroke="#6384a6" stroke-width="5" stroke-linecap="round"/><rect x="138" y="58" width="65" height="109" rx="13" fill="#153d52" stroke="#53e6b4" stroke-width="3"/><rect x="148" y="71" width="45" height="75" rx="6" fill="#0a1727"/><path d="m160 111 9 9 15-20" fill="none" stroke="#53e6b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="171" cy="156" r="3" fill="#53e6b4"/></svg>
+      </div>
+      <span class="eyebrow">DISEÑADA PARA TU TELÉFONO</span>
+      <h1>Esta web es solo para móviles.</h1>
+      <p>Para descubrir si tu teléfono dispone de VoLTE y cómo activarlo, abre esta misma dirección directamente desde tu smartphone.</p>
+      <div class="desktop-url">itseo.github.io/voltecheck</div>
+      <button class="copy-button" id="copy-address" type="button">Copiar dirección</button>
+      <p class="smallprint">Los ordenadores, tablets y televisores no pueden realizar esta consulta aquí.</p>
+    </section>
+  </main>
+  <main id="mobile-app" class="mobile-app" hidden>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-symbol" aria-hidden="true"><span>4G</span><svg viewBox="0 0 24 24"><path d="M5 5a15 15 0 0 1 14 14l-4 1c-.7-3.8-5.2-8.3-9-9z" fill="currentColor"/></svg></div>
+      <span class="eyebrow"><span class="status-dot"></span> CONECTADO AL FUTURO</span>
+      <h1 id="hero-title">¿Tu móvil tiene <span>VoLTE?</span></h1>
+      <p>Descubre si tu teléfono permite llamar por 4G y aprende cómo encontrar la opción para activarlo.</p>
+      <div class="hero-pills"><span>✓ Sin instalar nada</span><span>✓ Gratis</span><span>✓ Sin registros</span></div>
+    </section>
+    <section class="content-stack">
+      <section class="card detected-card" aria-labelledby="detected-title">
+        <div class="section-head"><div class="section-icon" aria-hidden="true">⌁</div><div><span class="overline">PASO 1</span><h2 id="detected-title">Tu dispositivo</h2></div></div>
+        <div id="detect-state" class="detect-loading" aria-live="polite">Identificando el dispositivo…</div>
+        <div id="detected-actions" class="detected-actions" hidden>
+          <button id="detected-select" class="primary-button" type="button" hidden>Ver compatibilidad <span aria-hidden="true">→</span></button>
+          <button id="toggle-search" class="secondary-button" type="button">Buscar mi modelo manualmente</button>
+        </div>
+      </section>
+      <section id="search-panel" class="card search-panel" aria-labelledby="search-title">
+        <div class="section-head"><div class="section-icon" aria-hidden="true">⌕</div><div><span class="overline">PASO 2</span><h2 id="search-title">Encuentra tu modelo</h2></div></div>
+        <p class="section-desc">Busca el nombre de tu teléfono. Puedes encontrarlo en Ajustes → Acerca del teléfono o Información del dispositivo.</p>
+        <label for="brand-select" class="field-label">Fabricante</label>
+        <select id="brand-select" class="field"><option value="">Todas las marcas</option></select>
+        <label for="model-search" class="field-label">Modelo de tu teléfono</label>
+        <div class="input-wrap"><span aria-hidden="true" class="input-search-icon">⌕</span><input id="model-search" type="search" class="field" placeholder="Ej. Galaxy A55, Redmi Note 13…" autocomplete="off" spellcheck="false" inputmode="search"></div>
+        <div class="results-meta"><span id="results-count">Cargando catálogo…</span></div>
+        <div id="model-results" class="model-results" role="list" aria-label="Modelos disponibles"></div>
+        <p id="no-results" class="no-results" hidden>No encontramos ese modelo en el catálogo. Comprueba el nombre exacto o prueba con otra búsqueda. Que no aparezca no significa que no tenga VoLTE.</p>
+      </section>
+      <section id="result-panel" class="card result-panel" hidden aria-labelledby="result-title" tabindex="-1">
+        <div class="section-head"><div class="section-icon result-icon" aria-hidden="true">✓</div><div><span class="overline">RESULTADO</span><h2 id="result-title">Tu compatibilidad</h2></div></div>
+        <div id="result-body" aria-live="polite"></div>
+        <div class="result-footer-actions"><button type="button" class="secondary-button" id="change-model">Elegir otro modelo</button><button type="button" class="secondary-button" id="share-result">Compartir ficha ↗</button></div>
+      </section>
+      <section class="info-panel" aria-labelledby="info-heading"><span class="info-mark" aria-hidden="true">i</span><div><h2 id="info-heading">¿Qué es VoLTE?</h2><p>VoLTE permite realizar llamadas a través de la red 4G. La disponibilidad final también depende de la SIM, el operador y el software de tu teléfono.</p></div></section>
+    </section>
+  </main>
+  <noscript><p class="noscript-msg">Para utilizar VoLTECheck necesitas activar JavaScript en tu navegador.</p></noscript>
+  <footer class="site-footer"><span>Creado con ❤️ por <a href="https://sistewa.com" rel="noopener noreferrer" target="_blank">Sistewa</a></span><span class="footer-muted">© <span id="year">2026</span> Francisco Díaz Lara · <a href="https://github.com/itseo/voltecheck" rel="noopener noreferrer" target="_blank">Código abierto</a></span></footer>
+</body>
+</html>
