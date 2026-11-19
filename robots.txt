@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://itseo.github.io/voltecheck/sitemap.xml
