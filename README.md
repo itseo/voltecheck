@@ -28,6 +28,16 @@ Abre `http://localhost:8080` desde el ordenador para inspección y pruebas; la i
 
 Los datos se mantienen en `data/catalog.json`. El archivo `scripts/validate.mjs` valida la estructura.
 
+## Publicación en GitHub Pages
+
+Este proyecto se publica como un sitio estático directamente desde la rama `main`, sin compilación ni servidor.
+
+En el repositorio, entra en **Settings → Pages**. En **Build and deployment**, selecciona **Source: Deploy from a branch**, elige **Branch: main**, carpeta **/(root)** y pulsa **Save**.
+
+Dirección pública: **https://itseo.github.io/voltecheck/**
+
+Cada cambio posterior en `main` actualiza la web automáticamente. El flujo de GitHub Actions comprueba la sintaxis, el catálogo y la identificación de dispositivos; no realiza el despliegue.
+
 ## Autor y licencia
 
 **Francisco Díaz Lara — [Sistewa](https://sistewa.com)**
