@@ -141,6 +141,7 @@ svg, img { display: block; max-width: 100%; }
   display: grid;
   place-items: center;
   background: #183f4e;
+  color: var(--mint-bright);
   box-shadow: 0 8px 26px rgba(0, 0, 0, .12);
 }
 .hero-symbol svg { width: 66px; height: 66px; }
