@@ -8,6 +8,6 @@
   "author": "Francisco Díaz Lara - Sistewa",
   "scripts": {
     "validate": "node scripts/validate.mjs",
-    "test": "node --check assets/app.js && node --check assets/device.js && node scripts/validate.mjs && node --test scripts/device.test.mjs"
+    "test": "node --check assets/app.js && node --check assets/device.js && node scripts/validate.mjs && node --test scripts/device.test.mjs scripts/style.test.mjs"
   }
 }
